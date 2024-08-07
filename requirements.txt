@@ -1,0 +1,10 @@
+# Do not include azure-functions-worker in this file
+# The Python Worker is managed by the Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-cosmos
+tiktoken==0.4.0
+mysql-connector-python
+python-dotenv==1.0.1
+openai==1.35.3
